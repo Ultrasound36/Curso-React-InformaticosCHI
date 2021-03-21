@@ -1,11 +1,21 @@
 {
   "name": "01-primera-clase",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Clase React Programadores Chile",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start2": "node index2.js"
   },
   "author": "Mauricio Aguila G.",
-  "license": "ISC"
+  "license": "ISC",
+  "presets": [
+    "es2016"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  }
 }
